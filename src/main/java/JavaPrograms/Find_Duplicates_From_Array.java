@@ -1,10 +1,9 @@
 package JavaPrograms;
 
-
 import java.util.HashSet;
 import java.util.Set;
 
-public class Practice {
+public class Find_Duplicates_From_Array {
 
     public static void main(String[] args) {
 
@@ -21,4 +20,3 @@ public class Practice {
         System.out.println("Duplicate elements: " + duplicates);
     }
 }
-
