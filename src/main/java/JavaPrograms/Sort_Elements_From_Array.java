@@ -7,14 +7,14 @@ public class Sort_Elements_From_Array {
 
     public static void main(String[] args) {
 
-        int[] a = {55, 22, 17, 87, 93};
+        int[] arr = {55, 22, 17, 87, 93};
 
-        TreeSet<Integer> t = new TreeSet<>();
+        TreeSet<Integer> treeSet = new TreeSet<>();
         //TreeSet<Integer> t = new TreeSet<>(Collections.reverseOrder());   //For descending order
 
-        for (int j : a) {
-            t.add(j);
+        for (int num : arr) {
+            treeSet.add(num);
         }
-        System.out.println(t);
+        System.out.println(treeSet);
     }
 }

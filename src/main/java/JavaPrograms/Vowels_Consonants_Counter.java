@@ -4,7 +4,7 @@ public class Vowels_Consonants_Counter {
 
     public static void main(String[] args) {
 
-        String str = "Hello World";
+        String str = "hello world";
         str = str.toLowerCase();
 
         int vowels = 0;

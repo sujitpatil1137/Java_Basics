@@ -9,14 +9,14 @@ public class Find_Duplicates_From_Array {
 
         int[] arr = {4, 5, 6, 4, 7, 8, 5, 9};
 
-        Set<Integer> seen = new HashSet<>();
-        Set<Integer> duplicates = new HashSet<>();
+        Set<Integer> uniqueNumbers = new HashSet<>();
+        Set<Integer> duplicateNumbers = new HashSet<>();
 
         for (int num : arr) {
-            if (!seen.add(num)) {
-                duplicates.add(num);
+            if (!uniqueNumbers.add(num)) {
+                duplicateNumbers.add(num);
             }
         }
-        System.out.println("Duplicate elements: " + duplicates);
+        System.out.println("Duplicate elements: " + duplicateNumbers);
     }
 }

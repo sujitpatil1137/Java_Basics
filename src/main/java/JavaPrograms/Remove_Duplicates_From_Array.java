@@ -11,8 +11,7 @@ public class Remove_Duplicates_From_Array {
 
         List<Integer> list = new ArrayList<>();
 
-        for(int num:arr)
-        {
+        for (int num : arr) {
             if (!list.contains(num)) {
                 list.add(num);
             }
