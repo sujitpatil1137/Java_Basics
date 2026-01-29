@@ -1,6 +1,5 @@
 package Java_Programs;
 
-import java.util.Collections;
 import java.util.TreeSet;
 
 public class Sort_Elements_From_Array {
