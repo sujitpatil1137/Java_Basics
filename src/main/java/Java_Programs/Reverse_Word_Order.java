@@ -4,14 +4,12 @@ public class Reverse_Word_Order {
 
     public static void main(String[] args) {
 
-        String str = "My name is Sujit Patil";
-        String[] words = str.split(" ");
-        String res = "";
+        String s = "my name is sujit";
+        String[] words = s.split(" ");
 
-        for (String word : words) {
-            res = word + " " + res;  // Prepend word to result
+        for (int i = words.length - 1; i >= 0; i--)
+        {
+            System.out.print(words[i] + " ");
         }
-
-        System.out.println("Reversed Word Order: " + res.trim());
     }
 }
