@@ -8,20 +8,12 @@ public class Count_Characters {
     public static void main(String[] args) {
 
         String str = "programming";
-        Map<Character, Integer> charCount = new HashMap<>();
 
-        for (char c : str.toCharArray()) {
-            if (c == ' ') continue; // skip spaces
+        Map<Character, Integer> map = new HashMap<>();
 
-            if (charCount.containsKey(c)) {
-                charCount.put(c, charCount.get(c) + 1); // increase count
-            } else {
-                charCount.put(c, 1); // first time adding
-            }
+        for (char ch : str.toCharArray()) {
+            map.put(ch, map.getOrDefault(ch, 0) + 1);   //This line checks if the character exists in the map, gets its current count or 0, increments it by 1, and stores it back.
         }
-
-        for (Character key : charCount.keySet()) {
-            System.out.println(key + " → " + charCount.get(key));
-        }
+        System.out.println(map);
     }
 }

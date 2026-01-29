@@ -9,11 +9,9 @@ public class Reverse_String_UsingScanner {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a string to reverse: ");
         String str = scanner.nextLine();
-
         String res = "";
 
-        for(int i=str.length()-1; i>=0; i--)
-        {
+        for(int i=str.length()-1; i>=0; i--) {
             res = res + str.charAt(i);
         }
 

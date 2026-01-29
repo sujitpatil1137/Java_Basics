@@ -16,6 +16,7 @@ public class Remove_Duplicates_From_String {
         }
 
         StringBuilder result = new StringBuilder();
+
         for (char c : set) {
             result.append(c);
         }
