@@ -3,7 +3,7 @@ package Java_Programs;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Count_Characters {
+public class Count_Characters_Occurances {
 
     public static void main(String[] args) {
 
